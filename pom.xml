@@ -41,7 +41,7 @@
                         <version>${sureFireVersion}</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/test/resources/testngSelenium.xml</suiteXmlFile>
+                                <suiteXmlFile>${project.basedir}/src/test/resources/testngSelenium.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
@@ -59,7 +59,7 @@
                         <version>${sureFireVersion}</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/test/resources/testngTest.xml</suiteXmlFile>
+                                <suiteXmlFile>${project.basedir}/src/test/resources/testngSelenium.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
