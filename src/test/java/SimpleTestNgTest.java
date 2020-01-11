@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MyFirstTest {
+public class SimpleTestNgTest {
     @Test
     public void test(){
         boolean someCondition = true;
