@@ -10,6 +10,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sureFireVersion>3.0.0-M1</sureFireVersion>
     </properties>
 
 
@@ -37,7 +38,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M1</version>
+                        <version>${sureFireVersion}</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>src/test/resources/testngSelenium.xml</suiteXmlFile>
@@ -55,7 +56,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M1</version>
+                        <version>${sureFireVersion}</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>src/test/resources/testngTest.xml</suiteXmlFile>
