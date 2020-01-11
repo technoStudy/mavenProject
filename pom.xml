@@ -5,7 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>study.techno</groupId>
     <artifactId>TestingSoftwareProject2</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>SeleniumTest</module>
+        <module>TestNGTests</module>
+    </modules>
     <properties> <!-- Error:java: error: release version 5 not supported -->
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -22,13 +27,7 @@
             <version>6.8</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 
     <profiles>

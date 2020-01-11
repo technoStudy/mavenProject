@@ -6,5 +6,6 @@ public class SimpleTestNgTest {
     public void test(){
         boolean someCondition = true;
         Assert.assertTrue( someCondition );
+
     }
 }
